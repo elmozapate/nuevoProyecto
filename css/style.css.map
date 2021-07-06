@@ -1,0 +1,21 @@
+{
+    "version": 3,
+    "mappings": "AGAA,OAAO,CAAC,wFAAI,CAEZ,AAAA,CAAC,AAAA,CACG,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,UAAU,CAEzB,AACD,AAAA,IAAI,AAAA,CACA,eAAe,CAAE,MAAM,CACvB,WAAW,CAAE,oBAAoB,CACpC,AACD,AAAA,IAAI,AAAA,CACA,SAAS,CAAE,KAAK,CAChB,SAAS,CAAE,KAAK,CAChB,UAAU,CAAC,KAAK,CAChB,UAAU,CAAE,KAAK,CACjB,WAAW,CAAE,MAAM,CACtB,AAID,AAAA,eAAe,AAAA,CACX,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,KAAK,CACb,OAAO,CAAE,IAAI,CACb,aAAa,CAAE,iBAAiB,CACnC,AAED,AAAA,OAAO,AAAA,CACH,UAAU,CAAE,CAAC,CAAC,KAAK,CAAC,GAAG,CAAC,CAAC,CAAC,gBAAmB,CAChD,AAED,AAAA,QAAQ,AAAA,CACJ,QAAQ,CAAE,IAAI,CACd,OAAO,CAAE,KAAK,CAAC,GAAG,CAAC,gBAAmB,CACzC,AACD,AAAA,QAAQ,AAAA,CACN,QAAQ,CAAE,IAAI,CACd,WAAW,CAAE,IAAI,CAClB,AExCD,AAAA,gBAAgB,AAAC,CACb,MAAM,CAAG,IAAI,CACb,KAAK,CAAE,GAAG,CACT,AAEH,AAAA,YAAY,AAAC,CACX,UAAU,CAAE,MAAM,CAClB,aAAa,CAAE,IAAI,CACnB,UAAU,CAAE,KAAK,CAClB,AAED,AAAA,KAAK,AAAC,CACJ,OAAO,CAAE,IAAI,CACb,SAAS,CAAE,OAAO,CAClB,UAAU,CAAC,mBAAsB,CACjC,MAAM,CAAC,KAAK,CAAC,GAAG,CAAC,OAAe,CAChC,aAAa,CAAE,IAAI,CAUtB,AAfC,AAME,KANG,CAMH,CAAC,AAAC,CACA,OAAO,CAAE,KAAK,CACd,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,IAAI,CACjB,KAAK,CAAE,KAAK,CACZ,eAAe,CAAE,IAAI,CACrB,cAAc,CAAE,GAAG,CAEpB",
+    "sources": [
+        "style.scss",
+        "scss/base/_config.scss",
+        "scss/base/_mixins.scss",
+        "scss/base/_global.scss",
+        "scss/components/_forms.scss",
+        "scss/pages/_index.scss",
+        "scss/pages/_componentes.scss",
+        "scss/pages/_crear_empresa.scss",
+        "scss/pages/_empresas_registradas.scss",
+        "scss/pages/_crear_usuario.scss",
+        "scss/pages/_usuarios_registrados.scss",
+        "scss/pages/_pagos.scss",
+        "scss/pages/_reportes_transaccionales.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
