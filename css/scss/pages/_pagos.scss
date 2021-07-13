@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+
+    .header__user_profile{
+        display: flex;
+        color: $grey_light_text;
+        .user_profile__avatar{
+            margin-right: 10px;
+        }
+    }
+    
+}
+.sidebar{
+    .sidebar__content{
+        margin-top: 7rem;
+        margin-left: 3rem;
+        p{
+            font-weight: bold;
+            color: $grey_light_text;
+        }
+        span{
+            text-align: center;
+            display: inline-block;
+            margin-left: 1rem;
+            background-color: #2f1071;
+            color: white;
+            border-radius: 50%;
+            width: 1.6rem;
+            height: auto;
+            
+        }
+    }
+}
+.content_container{
+    padding: 2rem;
+    .content_container__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
