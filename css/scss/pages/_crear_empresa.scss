@@ -1,0 +1,30 @@
+.crear_empresa {
+    display: flex;
+    padding: 25px 60px 0 30px;
+    .left {
+        a {          
+            height: 20px;
+
+            svg {
+                height: 20px;
+                padding: 0 5px;
+            }
+            span {
+                height: 20px;
+            }
+        }
+        width: 50%;
+        height: 100%;
+        .image img {
+            width: 100%;
+        }
+    }
+    .right {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20%;
+    }
+}

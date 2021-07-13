@@ -1,0 +1,54 @@
+.components__container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  
+    h1 {
+      text-align: center;
+      margin-top: 25px;
+    }
+  }
+  
+  .components__inputs {
+    h2 {
+      text-align: center;
+    }
+  
+    .form_control {
+      margin-bottom: 15px;
+    }
+  }
+  
+  .components__buttons {
+    h2 {
+      text-align: center;
+    }
+  
+    .btn_primary {
+      margin-bottom: 15px;
+    }
+  }
+  
+  .components__links {
+    h2 {
+      text-align: center;
+    }
+    a {
+      text-align: center;
+      display: block;
+      margin-bottom: 5px;
+    }
+  }
+  
+  .components__texts {
+    h2 {
+      text-align: center;
+    }
+  }
+  
+  .components_steps {
+    h2 {
+      text-align: center;
+    }
+  }
+  
