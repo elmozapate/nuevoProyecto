@@ -48,7 +48,7 @@
 //     text-align: $text-align;
 //   }
   
-//   // Boton Mixin
+  // Boton Mixin
 //   @mixin btn-primary($bg-color, $font-color, $width, $height, $font-size) {
 //     @include border(10.5px, 0px, none, none, false);
 //     @include text(
@@ -201,4 +201,7 @@
 //     @include text($color, $font-size, normal, 500, 1.13, left, italic);
 //     text-decoration: underline;
 //   }
+
+
+
   

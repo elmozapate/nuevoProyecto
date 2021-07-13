@@ -43,4 +43,13 @@ body{
 .content-container{
   grid-row: 2/-1; 
   grid-column: 2/-1;
+  
+  .left{
+      width: 50%;
+      height: 100%;
+  }
+  .right{
+      width: 50%;
+      height: 100%;
+  }
 }

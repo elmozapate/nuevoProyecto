@@ -53,6 +53,18 @@
             h1{
                 color: $grey_dark_text;
             }
+            a{
+                text-decoration: none;
+                margin-right: 10px;
+                color: $grey_light_text;
+            }
+            button{
+                background-color:$blue_link ;
+                padding: 0.8rem 1.5rem;
+                color: white;
+                border-radius: 6.5px;
+                word-spacing: 3px;
+            }
         }
         .date_table{
             grid-row: 2/3;
