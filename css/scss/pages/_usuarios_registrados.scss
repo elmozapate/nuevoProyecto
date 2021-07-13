@@ -1,0 +1,22 @@
+.usuarios_registrados{
+    display: flex;
+    padding: 25px 60px 0 30px;
+
+    .left{ 
+
+        width:  50%;
+        height: 100%;
+        .image img{ 
+                  width: 100%;
+        }
+    }
+    .right{
+        width:  50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20%;
+    }
+
+}
