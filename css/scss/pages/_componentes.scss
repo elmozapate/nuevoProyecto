@@ -1,54 +1,99 @@
-.components__container {
-    max-width: 80%;
-    margin: 0 auto;
-    padding-bottom: 50px;
+.components__container{
+  height: 100vh;
+  padding: 2rem;
   
-    h1 {
-      text-align: center;
-      margin-top: 25px;
-    }
+}
+
+.forms{
+  width: 100%;
+  text-align: center;    
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 2rem;
+  box-shadow: $container_shade; 
+
+  input{
+      width: 100%;
+      height: 50px;
+      padding: 13.8px 17.3px;
+      margin-bottom: 20px;
+      letter-spacing: 0.56px;
+      background-color: $grey_light_input;
+      border-radius: 14px;
+      border:none;              
+  } 
+  .content_password,.content_password_repeat {
+      input {
+          position:relative;
+      }
+      & svg{
+          position: absolute;
+          margin-left: -50px;  
+          margin-top: 10px; 
+          color: $grey_dark_input;        
+      }
   }
-  
-  .components__inputs {
-    h2 {
-      text-align: center;
-    }
-  
-    .form_control {
-      margin-bottom: 15px;
-    }
+  .send_email{
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 30px;
+      p{
+          display: inline-block;
+          color: $grey_light_text;
+          font-weight: bold;
+          height: 100%;
+      }
+      input[type=checkbox]{
+          display: inline-block;
+          width: 20px;
+          height: 18px;
+          margin-right: 10px;
+      }
+      
+      
   }
-  
-  .components__buttons {
-    h2 {
-      text-align: center;
-    }
-  
-    .btn_primary {
-      margin-bottom: 15px;
-    }
+  input[type=submit]{
+      color: white;
+      background-color: $blue_link;
+      font-weight: bolder;
+      font-size: 1.5rem;
+      font-family: $font-principal;
+      // padding:  2rem 1rem 3rem;
   }
-  
-  .components__links {
-    h2 {
-      text-align: center;
-    }
-    a {
-      text-align: center;
-      display: block;
-      margin-bottom: 5px;
-    }
+}
+.custom_select{
+  width: auto;
+  box-shadow: $container_shade; 
+  margin-bottom: 50px;
+  padding: 3rem;
+ 
+  .content_select{
+      input{
+          width: auto;
+          padding: 13.8px 17.3px;
+          margin-bottom: 20px;
+          letter-spacing: 0.56px;
+          background-color: $grey_light_input;
+          border-radius: 10.5px;
+          border:none;    
+                      
+      }  
+      & svg {
+          margin-left: -30px;
+          color: $grey_dark_input;
+      }            
+      
+      .options{    
+          width: 300px;
+          height: auto;
+          padding: 2rem;
+          line-height: 40px;
+          border-radius: 10px;
+          box-shadow: $container_shade;
+          input{
+              width: 40px;
+          }
+      }
   }
-  
-  .components__texts {
-    h2 {
-      text-align: center;
-    }
-  }
-  
-  .components_steps {
-    h2 {
-      text-align: center;
-    }
-  }
-  
+
+}
