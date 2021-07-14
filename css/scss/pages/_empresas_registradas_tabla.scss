@@ -11,13 +11,16 @@
         display: flex;
         justify-content: flex-end;
         button {
+            font-weight: 800;
+            border-style: none;
             border-radius: 6.5px;
             background-color: #22cc8c;
             color: #ffffff;
             margin-top: 10px;
-            width: 212.5px;
+            width: 140px;
             height: 35px;
         }
+        padding-bottom: 10px;
     }
     .table-container-registro {
         border: 1px solid gray;
