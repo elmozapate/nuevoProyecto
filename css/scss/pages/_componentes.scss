@@ -66,10 +66,11 @@
   
  
   .content_select{
+    position: relative;
       input{
           width: auto;
           padding: 13.8px 17.3px;
-          margin-bottom: 20px;
+          margin-bottom: 10px;
           letter-spacing: 0.56px;
           background-color: $grey_light_input;
           border-radius: 10.5px;
@@ -82,13 +83,15 @@
       }            
       
       .options{ 
-        display: none;   
-          width: 250px;
+        position: absolute;
+        // display: none;   
+          width: 230px;
           height: auto;
-          padding: 2rem;
-          line-height: 10px;
+          padding: 1rem;
+          line-height: 40px;
           border-radius: 10px;
           box-shadow: $container_shade;
+          background-color: white;
           input{
               width: 40px;
           }
