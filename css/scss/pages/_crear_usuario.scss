@@ -1,0 +1,41 @@
+.crear_usuario {
+    display: flex;
+    padding: 25px 60px 0 30px;
+    .left {
+        .atras {
+            color: rgb(51, 51, 211);
+            height: 20px;
+            a {
+                height: 20px;
+
+                svg {
+                    height: 20px;
+                    padding: 0 5px;
+                }
+                span {
+                    height: 20px;
+                }
+            }
+        }
+        h1 {
+            color: #333333;
+            margin-bottom: 20px;
+        }
+        span {
+            color: #818181;
+        }
+        width: 55%;
+        height: 100%;
+        .image img {
+            width: 100%;
+        }
+    }
+    .right {
+        width: 45%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20%;
+    }
+}
