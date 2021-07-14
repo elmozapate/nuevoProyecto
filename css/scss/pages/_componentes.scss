@@ -63,9 +63,7 @@
 }
 .custom_select{
   width: auto;
-  box-shadow: $container_shade; 
-  // margin-bottom: 50px;
-  // padding: 3rem;
+  
  
   .content_select{
       input{
@@ -83,7 +81,8 @@
           color: $grey_dark_input;
       }            
       
-      .options{    
+      .options{ 
+        display: none;   
           width: 250px;
           height: auto;
           padding: 2rem;
