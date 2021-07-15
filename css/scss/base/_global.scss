@@ -51,10 +51,8 @@ body{
     grid-column: 2/-1;
     display: flex;
     flex-direction: column;
-  }
-.content-container_reportes{
-    grid-row: 2/-1; 
-    grid-column: 2/-1;
+    margin: 25px 60px 0 30px;
+
   }
   .components__container {
     height: 100vh;
@@ -63,6 +61,8 @@ body{
 .left {
     width: 55%;
      height: 100%;
+     margin: 25px 60px 0 30px;
+
  }
  .right{
     width: 45%;
