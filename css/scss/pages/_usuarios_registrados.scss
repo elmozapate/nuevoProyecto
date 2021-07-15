@@ -1,0 +1,37 @@
+.usuarios_registrados{
+    display: flex;
+    padding: 25px 60px 0 30px;
+    .left{ 
+        h1{
+            color:#333333;
+            margin-bottom: 20px;
+        }
+        span{
+            color:#818181;
+        }
+
+        width:  55%;
+        height: 100%;
+        .image img{ 
+                  width: 100%;
+        }
+    }
+    .right{
+        color: #818181;
+        width: 45%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20%;
+        button {
+            color: white;
+            margin-top: 10px;
+            width: 212.5px;
+            height: 35px;
+            border-radius: 6.5px;
+            background-color: #2f1071;
+        }
+    }
+
+}

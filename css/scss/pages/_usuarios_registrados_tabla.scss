@@ -1,0 +1,28 @@
+.usuarios_registrados_tabla {
+    padding: 25px 60px 0 30px;
+    color: #333333;
+
+    div {
+        width: 100%;
+    }
+    .button {
+        height: 35px;
+        color: #818181;
+        display: flex;
+        justify-content: flex-end;
+        button {
+            width: 128.5px;
+            height: 100%;
+            border-radius: 6.5px;
+            border-style: none;
+            background-color: #22cc8c;
+            color: #ffffff;
+        }
+    }
+    .table-container-registro {
+        border: 1px solid gray;
+        margin-top: 20px;
+        width: 100%;
+        height: 200px;
+    }
+}

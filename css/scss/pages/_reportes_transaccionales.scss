@@ -1,0 +1,44 @@
+.reportes_transaccionales {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 70% 30%;
+    .main-container {
+        width: 100%;
+        height: 100%;
+        grid-row: 1/1;
+        grid-column: 1/2;
+        outline: solid 1px rgba(0, 0, 0, 0.24);
+        h1 {
+            padding: 25px 0 0 30px;
+            color: #333333;
+        }
+        .componentes {
+            height: 40vh;
+            display: flex;
+            flex-wrap: wrap;
+            padding-left: 5%;
+            width: 100%;
+            .top {
+                margin: 5% 5% 5% 0%;
+                width: 30%;
+                height: 50%;
+                outline: solid 1px rgba(0, 0, 0, 0.24);
+            }
+            .bottom{
+                width: 65%;
+                height: 50%;
+                outline: solid 1px rgba(0, 0, 0, 0.24);
+            }
+        }
+    }
+    .second-container {
+        width: 100%;
+        height: 100%;
+        grid-row: 1/1;
+        grid-column: 2/2;
+        outline: solid 1px rgba(0, 0, 0, 0.24);
+    }
+}
