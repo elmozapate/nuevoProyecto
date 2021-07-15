@@ -1,101 +1,99 @@
-.components__container{
-  height: 100vh;
-  padding: 2rem;
-  
+.components__container {
+    height: 100vh;
+    padding: 2rem;
 }
 
-.forms{
-  width: 100%;
-  text-align: center;    
-  margin: 0 auto;
-  margin-bottom: 50px;
-  padding: 2rem;
+.forms {
+    width: 120%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 2rem 0;
 
-  input{
-      width: 120%;
-      height: 40px;
-      padding: 13.8px 17.3px;
-      margin-bottom: 20px;
-      letter-spacing: 0.56px;
-      background-color: $grey_light_input;
-      border-radius: 14px;
-      border:none;              
-  } 
-  .content_password,.content_password_repeat {
-      input {
-          position:relative;
-      }
-      & svg{
-          position: absolute;
-          margin-left: -50px;  
-          margin-top: 10px; 
-          color: $grey_dark_input;        
-      }
-  }
-  .send_email{
-      display: flex;
-      justify-content: flex-start;
-      padding-left: 30px;
-      p{
-          display: inline-block;
-          color: $grey_light_text;
-          font-weight: bold;
-          height: 100%;
-      }
-      input[type=checkbox]{
-          display: inline-block;
-          width: 20px;
-          height: 18px;
-          margin-right: 10px;
-      }
-      
-      
-  }
-  input[type=submit]{
-      color: white;
-      background-color: $blue_link;
-      font-weight: bolder;
-      font-size: 1.5rem;
-      font-family: $font-principal;
-      padding:  2rem 1rem 3rem;
-  }
+    input {
+        width: 100%;
+        height: 40px;
+        padding: 13.8px 17.3px;
+        margin-bottom: 20px;
+        letter-spacing: 0.56px;
+        background-color: $grey_light_input;
+        border-radius: 14px;
+        border: none;
+    }
+    .content_password,
+    .content_password_repeat {
+        input {
+            position: relative;
+        }
+        & svg {
+            position: absolute;
+            margin-left: -40px;
+            margin-top: 10px;
+            color: $grey_dark_input;
+        }
+    }
+    .send_email {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 30px;
+        p {
+            display: inline-block;
+            color: $grey_light_text;
+            font-weight: bold;
+            height: 100%;
+        }
+        input[type="checkbox"] {
+            display: inline-block;
+            width: 20px;
+            height: 18px;
+            margin-right: 10px;
+        }
+    }
+    input[type="submit"] {
+        width: 100%;
+        color: $grey_dark_btn;
+        background-color: $grey_light_btn;
+        font-weight: bolder;
+        font-size: 1.5rem;
+        font-family: $font-principal;
+        padding: 0 1rem 1rem;
+    }
 }
-.custom_select{
-  width: auto;
-  
- 
-  .content_select{
-    position: relative;
-      input{
-          width: auto;
-          padding: 13.8px 17.3px;
-          margin-bottom: 10px;
-          letter-spacing: 0.56px;
-          background-color: $grey_light_input;
-          border-radius: 10.5px;
-          border:none;    
-                      
-      }  
-      & svg {
-          margin-left: -30px;
-          color: $grey_dark_input;
-      }            
-      
-      .options{ 
-        position: absolute;
-        // display: none;   
-          width: 230px;
-          height: auto;
-          padding: 1rem;
-          line-height: 40px;
-          border-radius: 10px;
-          box-shadow: $field_shade;
-          background-color: white;
-          input{
-              width: 40px;
+.custom_select {
+    width: auto;
 
-          }
-      }
-  }
+    .content_select {
+        position: relative;
+        input {
+            width: auto;
+            padding: 13.8px 17.3px;
+            margin-bottom: 10px;
+            letter-spacing: 0.56px;
+            background-color: $grey_light_input;
+            border-radius: 10.5px;
+            border: none;
+        }
+        & svg {
+            margin-left: -30px;
+            color: $grey_dark_input;
+        }
 
+        .options {
+            position: absolute;
+            // display: none;
+            width: 230px;
+            height: auto;
+            padding: 1rem;
+            line-height: 40px;
+            border-radius: 10px;
+            box-shadow: $field_shade;
+            background-color: white;
+            input {
+                width: 40px;
+            }
+        }
+    }
+}
+.hide{
+    display: none;
 }
