@@ -1,6 +1,6 @@
 input {
-    width: 100%;
-    height: 40px;
+   min-width: 360px;
+    height: 2.1rem;
     padding: 13.8px 17.3px;
     margin-bottom: 20px;
     letter-spacing: 0.56px;
@@ -8,18 +8,7 @@ input {
     border-radius: 14px;
     border: none;
 }
-.content_password,
-.content_password_repeat {
-    input {
-        position: relative;
-    }
-    & svg {
-        position: absolute;
-        margin-left: -40px;
-        margin-top: 10px;
-        color: $grey_dark_input;
-    }
-}
+
 .send_email {
     display: flex;
     justify-content: flex-start;
@@ -31,49 +20,32 @@ input {
         height: 100%;
     }
 }
-input[type="checkbox"] {
-    display: inline-block;
-    width: 20px;
-    height: 18px;
-    margin-right: 10px;
-}
-.content_select {
-    position: relative;
-    input {
-        width: auto;
-        padding: 13.8px 17.3px;
-        margin-bottom: 10px;
-        letter-spacing: 0.56px;
-        background-color: $grey_light_input;
-        border-radius: 10.5px;
-        border: none;
-    }
-    & svg {
-        margin-left: -30px;
-        color: $grey_dark_input;
-    }
 
-    .options {
-        position: absolute;
-        // display: none;
-        width: 230px;
-        height: auto;
-        padding: 1rem;
-        line-height: 40px;
-        border-radius: 10px;
-        box-shadow: $field_shade;
-        background-color: white;
-        input {
-            width: 40px;
-        }
+.options {
+    position: absolute;
+    width: 230px;
+    height: auto;
+    padding: 1rem;
+    line-height: 40px;
+    border-radius: 10px;
+    box-shadow: $field_shade;
+    background-color: white;
+    input {
+        width: 40px;
     }
 }
-input[type="submit"] {
-    width: 100%;
+.input_submit {
+    width: 70%;
     color: $grey_dark_btn;
     background-color: $grey_light_btn;
     font-weight: bolder;
     font-size: 1.5rem;
     font-family: $font-principal;
-    padding: .2rem 1rem 0 1rem;
+    padding: 0.2rem 1rem 0 1rem;
+}
+.content_password {
+    position: absolute;
+    margin-left: -40px;
+    margin-top: .35rem;
+    color: $grey_dark_input;
 }

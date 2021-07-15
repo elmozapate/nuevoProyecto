@@ -1,3 +1,32 @@
 .boton_crear{
     height: 20px;
 }
+.checkbox_fila{
+    min-width: 20px;
+    height: 1.08rem;
+    margin-right: 10px;
+}
+.checkbox_solitario{
+    display:block;
+    min-width: 20px;
+    height: 1.08rem;
+    margin-right: 10px;
+}
+.btn_crear {
+    font-weight: 800;
+    border-style: none;
+    border-radius: 6.5px;
+    background-color: #22cc8c;
+    color: #ffffff;
+    max-width: 140px;
+    min-height: 2.1rem;
+}
+.btn_crear_usuario {
+    border-style: none;
+    color: white;
+    margin-top: 10px;
+    width: 212.5px;
+    height: 35px;
+    border-radius: 6.5px;
+    background-color: #2f1071;
+}
