@@ -25,18 +25,29 @@
         span{
             color:#818181;
         }
-        width: 50%;
+        width: 55%;
         height: 100%;
         .image img {
             width: 100%;
         }
     }
-    .right {
-        width: 50%;
+    .right_form {
+        padding: 0 ;
+        margin-left: 35px;
+        width: 45%;
         height: 100%;
         display: flex;
-        justify-content: center;
         align-items: center;
-        padding-top: 20%;
+        .form{
+            align-items: center;
+
+            height: 100%;
+            width: 80%;
+            .boton_crear{
+                height: 20px;
+        }
+
+        
+        }
     }
 }
