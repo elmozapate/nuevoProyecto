@@ -1,0 +1,56 @@
+.index-main{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  background-color: $grey_light_input;
+
+}
+.index-image{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 50%;
+  height: 100vh;
+
+img{
+  width:80% ;
+}
+}
+
+  .index_title h1{
+    text-align: center;
+    padding-bottom: 30px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: $grey_dark_input;
+    color: white;
+  }
+  .index_container {
+
+    text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+line-height: 40px;
+   .item{
+    display: flex;
+    line-height: 40px;
+    width: 80%;
+    height: 40px;
+    font-size: 1.25rem;
+    background-color: $grey_light_text;
+    border: solid 2px rgb(41, 40, 40);
+    border-radius: 10px;
+    margin: 10px 50px;
+   a{
+     color: white;
+     text-decoration: none;
+
+   }
+  }
+}
+
+
