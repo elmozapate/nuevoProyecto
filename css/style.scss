@@ -5,10 +5,16 @@
 
 //componentes
 @import "./scss/components/forms";
+@import "./scss/components/botones";
+@import "./scss/components/inputs";
+@import "./scss/components/arrow";
+@import "./scss/components/text";
+@import "./scss/components/imagenes";
+
+
 
 //paginas
 @import "./scss/pages/index";
-@import "./scss/pages/componentes";
 @import "./scss/pages/crear_empresa";
 @import "./scss/pages/empresas_registradas";
 @import "./scss/pages/empresas_registradas_tabla";
@@ -18,7 +24,9 @@
 @import "./scss/pages/pagos";
 @import "./scss/pages/reportes_transaccionales";
 
-
+.hide{
+    display: none;
+}
 
 
 

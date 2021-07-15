@@ -44,8 +44,22 @@ body{
 .content-container{
   grid-row: 2/-1; 
   grid-column: 2/-1;
+  display: flex;
 }
 .content-container_reportes{
     grid-row: 2/-1; 
     grid-column: 2/-1;
   }
+  .components__container {
+    height: 100vh;
+    padding: 2rem;
+}
+.left {
+    width: 55%;
+     height: 100%;
+ }
+ .right{
+    width: 45%;
+    height: 100%;
+
+ }
