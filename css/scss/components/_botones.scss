@@ -20,13 +20,15 @@
     color: #ffffff;
     max-width: 140px;
     min-height: 2.1rem;
+    margin-bottom: 1rem;
 }
 .btn_crear_usuario {
+    font-size: 1rem;
     border-style: none;
     color: white;
-    margin-top: 10px;
-    width: 212.5px;
-    height: 35px;
+    padding: 1rem;
+    min-width: 212.5px;
+    max-height: 3rem; 
     border-radius: 6.5px;
     background-color: #2f1071;
 }
