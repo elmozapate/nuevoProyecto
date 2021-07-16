@@ -1,22 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap");
 
 //reset browsers
 
-*{
+* {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;    
-}
 
-body{
-    scroll-behavior: smooth;
-    font-family: 'Nunito', sans-serif;
     box-sizing: border-box;
 }
 
-// grid principal 
+body {
+    scroll-behavior: smooth;
+    font-family: "Nunito", sans-serif;
+    box-sizing: border-box;
+}
 
-.grid_container{
+// grid principal
+
+.grid_container {
     width: 100%;
     height: 100vh;
     display: grid;
@@ -24,62 +24,58 @@ body{
     grid-template-columns: 17% 83%;
 }
 
-.header{
-    box-shadow:$container_shade;
+.header {
+    box-shadow: $container_shade;
     grid-row: 1/2;
     grid-column: 2/3;
 }
 
-.sidebar{
+.sidebar {
     grid-row: 1/3;
     grid-column: 1/2;
     outline: solid 1px rgba(0, 0, 0, 0.24);
 }
 
-.content-container{
-  grid-row: 2/-1; 
-  grid-column: 2/-1;
-  display: flex;
-  margin: 25px 60px 0 0;
-  padding: 0;
+.content-container {
+    grid-row: 2/-1;
+    grid-column: 2/-1;
+    display: flex;
+    flex-direction: row;
 }
-.content-container-tablas{
-    grid-row: 2/-1; 
+.content-container-tablas {
+    grid-row: 2/-1;
     grid-column: 2/-1;
     display: flex;
     flex-direction: column;
-    margin: 25px 30px;
-    padding: 0;
-  }
-  .components__container {
+}
+.components__container {
     height: 100vh;
     padding: 2rem;
 }
 
-.left { 
-    padding: 0;
+.left {
     width: 55%;
-     height: 100%;
-     margin:0 60px 0 30px;
-
- }
- .right{
-     margin: 0;
-    padding: 0;
+    max-height: 100%;
+    margin: 25px 30px;
+}
+.right {
     width: 45%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
- }
- .right_input{
-    margin: 0;
-    padding: 0;
+}
+.right_input {
     width: 45%;
     height: 100%;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
 }
- label{
-     width: 70%;
-     display:flex ;
- }
+label {
+    margin-left: 15px;
+    min-width: 330px;
+    height: 2.1rem;
+    display: flex;
+}
