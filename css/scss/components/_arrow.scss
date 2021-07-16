@@ -1,12 +1,16 @@
+a {
+    height: 20px;
 
-    a {
+    svg {
         height: 20px;
-
-        svg {
-            height: 20px;
-            padding: 0 10px 0 5px;
-        }
-        span {
-            height: 20px;
-        }
+        padding: 0 10px 0 5px;
     }
+    span {
+        height: 20px;
+    }
+}
+.svg_select{
+    position: absolute;
+    margin-left:30px;
+    margin-top: 3px;
+}

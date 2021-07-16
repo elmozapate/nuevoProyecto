@@ -32,3 +32,36 @@
     border-radius: 6.5px;
     background-color: #2f1071;
 }
+.btn_crear_pago{
+    display: inline;
+    font-size: 1rem;
+    border-style: none;
+    color: white;
+    padding: .5rem;
+    min-width: 112.5px;
+    max-height: 2rem; 
+    border-radius: 6.5px;
+    background-color: #2f1071;
+}
+.Pagos_container__header {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+        color: $grey_dark_text;
+    }
+    a {
+        text-decoration: none;
+        margin-right: 10px;
+        color: $grey_light_text;
+    }
+    button {
+        background-color: $blue_link;
+        padding: 0.8rem 1.5rem;
+        color: white;
+        border-radius: 6.5px;
+        word-spacing: 3px;
+    }
+}

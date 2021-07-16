@@ -16,109 +16,106 @@
                 <img class="user_profile__avatar" src="../assets/img/usuario.png" alt="user profile image" width="40px"
                     height="40px">
                 <div class="user_profile__data">
-                    <h4><b>Jhon Doe</b></h4>
-                    <p>contact@wooden.com</p>
+                    <p class="p_nav"><b>Jhon Doe</b></p>
+                    <p class="p_nav">contact@wooden.com</p>
                 </div>
             </div>
         </header>
         <section class="sidebar">
             <div class="sidebar__content">
                 <p>Pagos<span>36</span></p>
-
-
             </div>
         </section>
-        <main class="content_container">
-            <div class="pagos_container">
-                <div class="Pagos_container__header">
-                    <h1>Pagos</h1>
-                    <div>
+        <main>
+            <div class="content-container-pagos">
+                <div class="pagos_header">
+                    <h1 class="h1_pagos">Pagos</h1>
+                    <div class="exportar">
                         <a href="">Exportar</a>
-                        <button>Crear Pago</button>
+                        <button class="btn_crear_pago">Crear Pago</button>
                     </div>
                 </div>
                 <div class="date_table">
-                    <div class="custom_select">
-                        <div class="content_select">
-                            <input type="text" name="select" id="select" value="Hoy" readonly>
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" role="img"
-                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
-                                class="svg-inline--fa fa-caret-down fa-w-10 fa-9x" width="15px" height="15px">
-                                <path fill="currentColor"
-                                    d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
-                                    class=""></path>
-                            </svg>
-                            <div class="options hide">
-                                <div>
-                                    <input type="radio" id="today" name="today" checked>
-                                    <label for="today">Hoy</label>
-                                </div>
-            
-                                <div>
-                                    <input type="radio" id="last7Days" name="last7Days">
-                                    <label for="last7Days">últimos 7 Dias</label>
-                                </div>
-                                <div>
-                                    <input type="radio" id="last30Days" name="last30Days">
-                                    <label for="last30Days">últimos 30 Dias</label>
-                                </div>
-            
-                                <div>
-                                    <input type="radio" id="custom" name="custom">
-                                    <label for="custom">personalizado</label>
-                                </div>
+                    <div class="content_select">
+                        <div class="options_close">
+                            <div class="options_close" type="text" name="select" id="select"><span
+                                    class="select_span">Hoy</span>
+                                <svg class="svg_select" aria-hidden="true" focusable="false" data-prefix="fas"
+                                    data-icon="caret-down" role="img" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 320 512" class="svg-inline--fa fa-caret-down fa-w-10 fa-9x"
+                                    width="15px" height="15px">
+                                    <path fill="currentColor"
+                                        d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                                        class=""></path>
+                                </svg>
                             </div>
                         </div>
+
+                        <div class="options hide">
+                            <label class="options_label" for="today"><input class="select_input" type="radio" id="today"
+                                    name="today" checked>
+                                Hoy
+                            </label>
+                            <label class="options_label" for="last7Days"><input class="select_input" type="radio"
+                                    id="last7Days" name="last7Days">
+                                Últimos 7 dias
+                            </label>
+                            <label class="options_label" for="last30Days"><input class="select_input" type="radio"
+                                    id="last30Days" name="last30Days">
+                                Últimos 30 dias
+                            </label>
+                            <label class="options_label" for="custom"><input class="select_input" type="radio"
+                                    id="custom" name="custom">
+                                Personalizado
+                            </label>
+                        </div>
                     </div>
-                </div>
-                <div class="table_stadistic_links">
-                    <ul>
-                        <li>
-                            <div class="estado">
-                                Todos
-                                <div class="activo"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="estado">
-                                <div class="header-estado">
-                                    <p>Entrantes</p> <div class="valor"><span>36</span> </div>
+                    <div class="table_stadistic_links">
+                        <ul>
+                            <li>
+                                <div class="estado">
+                                    Todos
+                                    <div class="activo"></div>
                                 </div>
-                                <div class="inactivo"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="estado">
-                                <div class="header-estado">
-                                    <p> Pendientes</p><div class="valor"><span>15</span> </div>
+                            </li>
+                            <li>
+                                <div class="estado">
+                                    Entrantes
+                                    <div class="valor"><span>36</span> </div>
+                                    <div class="inactivo"></div>
                                 </div>
-                                <div class="inactivo"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="estado">
-                                <div class="header-estado">
-                                    <p>En Proceso</p><div class="valor"><span>22</span></div>
+                            </li>
+                            <li>
+                                <div class="estado">
+                                    Pendientes
+                                    <div class="valor"><span>15</span> </div>
+                                    <div class="inactivo"></div>
                                 </div>
-                                <div class="inactivo"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="estado">
-                                Exitosos
-                                <div class="inactivo"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="estado">
-                                Cancelados
-                                <div class="inactivo"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="table_container">
-                  
+                            </li>
+                            <li>
+                                <div class="estado">
+                                    En Proceso
+                                    <div class="valor"><span>22</span></div>
+                                    <div class="inactivo"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="estado">
+                                    Exitosos
+                                    <div class="inactivo"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="estado">
+                                    Cancelados
+                                    <div class="inactivo"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="table_container_pagos">
+
+                    </div>
                 </div>
             </div>
         </main>

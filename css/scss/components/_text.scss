@@ -13,6 +13,12 @@ h1 {
     min-width: fit-content;
     margin: 0;
 }
+.h1_pagos {
+    color: #333333;
+    min-width: fit-content;
+    margin: 0;
+    margin-bottom: 20px;
+}
 .checkbox_text{
     min-width: 340px;
     margin-left: 10px;
@@ -26,7 +32,11 @@ h2{
     margin-bottom: 5px;
     max-height: 1.1rem;
     font-weight:100 ;
-
 }
-
+.exportar{
+    a{
+        color: #707070 ;
+        text-decoration: none;
+    }
+}
 

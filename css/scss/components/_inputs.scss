@@ -1,4 +1,4 @@
-input {
+.normal_input {
     min-width: 330px;
     height: 2.1rem;
     padding: 13.8px 17.3px;
@@ -21,19 +21,6 @@ input {
     }
 }
 
-.options {
-    position: absolute;
-    width: 230px;
-    height: auto;
-    padding: 1rem;
-    line-height: 40px;
-    border-radius: 10px;
-    box-shadow: $field_shade;
-    background-color: white;
-    input {
-        width: 40px;
-    }
-}
 .input_submit {
     width: 70%;
     color: $grey_dark_btn;
@@ -56,6 +43,4 @@ input {
     min-width: 330px;
     height: 2.1rem;
     margin-bottom: 20px;
-
-
 }

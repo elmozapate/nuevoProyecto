@@ -16,8 +16,8 @@
                 <img class="user_profile__avatar" src="../assets/img/usuario.png" alt="user profile image" width="40px"
                     height="40px">
                 <div class="user_profile__data">
-                    <h4><b>Jhon Doe</b></h4>
-                    <p>contact@wooden.com</p>
+                    <p class="p_nav"><b>Jhon Doe</b></p>
+                    <p class="p_nav">contact@wooden.com</p>
                 </div>
             </div>
         </header>
@@ -45,12 +45,13 @@
                 <img class="imagen_paginas" src="../assets/img/empresas-fondo.png" alt="">
             </div>
             <div class="right_input">
-                <input type="text" placeholder="Nombre Empresa" name="companyName" id="companyName">
-                <input type="text" placeholder="Nombre de Contacto" name="contactName" id="ncontactName">
-                <input type="email" placeholder="Correo Electronico" name="email" id="email">
-                <div class="pasword">
-                    <input  type="password" placeholder="Contraseña" name="password"
-                        id="password">
+                <input class="normal_input" type="text" placeholder="Nombre Empresa" name="companyName"
+                    id="companyName">
+                <input class="normal_input" type="text" placeholder="Nombre de Contacto" name="contactName"
+                    id="ncontactName">
+                <input class="normal_input" type="email" placeholder="Correo Electronico" name="email" id="email">
+                <div class="password">
+                    <input class="normal_input" type="password" placeholder="Contraseña" name="password" id="password">
                     <svg class="content_password" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="eye"
                         role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
                         class="svg-inline--fa fa-eye fa-w-18 fa-9x" with="25px" height="25px">
@@ -60,22 +61,23 @@
                     </svg>
                 </div>
                 <div class="password">
-                    <input  type="password" placeholder="Repetir Contraseña"
-                        name="password-repeat" id="password-repeat">
-                    <svg class="content_password" aria-hidden="true" focusable="false" data-prefix="fas"
-                        data-icon="eye" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                    <input class="normal_input" type="password" placeholder="Repetir Contraseña" name="password-repeat"
+                        id="password-repeat">
+                    <svg class="content_password" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="eye"
+                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
                         class="svg-inline--fa fa-eye fa-w-18 fa-9x" with="25px" height="25px">
                         <path fill="currentColor"
                             d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
                             class=""></path>
                     </svg>
                 </div>
-                <input type="text" placeholder="Generar API KEY" name="companyName" id="companyName">
-                <label>
+                <input class="normal_input" type="text" placeholder="Generar API KEY" name="companyName"
+                    id="companyName">
+                <label class="input_label">
                     <input class="checkbox_solitario" type="checkbox">
                     <p class="checkbox_text_solitario">Enviar al correo electrónico asociado.</p>
                 </label>
-                <input class="crear_usuario" type="submit" value="CREAR USUARIO">
+                <input class="normal_input" class="crear_usuario" type="submit" value="CREAR USUARIO">
             </div>
         </main>
     </div>
