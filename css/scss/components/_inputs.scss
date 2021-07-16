@@ -17,9 +17,7 @@
     border: none;
     background-color:$grey_light_btn;
     color:$grey_light_text ;
-
 }
-
 .send_email {
     display: flex;
     justify-content: flex-start;
@@ -31,7 +29,6 @@
         height: 100%;
     }
 }
-
 .input_submit {
     width: 70%;
     color: $grey_dark_btn;
