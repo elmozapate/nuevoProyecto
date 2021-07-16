@@ -45,9 +45,32 @@
                 <input class="normal_input" type="text" placeholder="Apellido" name="contactName" id="ncontactName">
                 <input class="normal_input" type="text" placeholder="Cargo" name="contactName" id="ncontactName">
                 <input class="normal_input" type="email" placeholder="Correo Electronico" name="email" id="email">
+                <div class="checkbox_permisos">
+                    <p class="h3_text"> Permisos</p>
+                    <label class="input_label">
+                        <input class="checkbox_fila " type="checkbox">
+                        <p class="checkbox_text_fila">Crear Usuarios.</p>
+                    </label>
+                    <label class="input_label">
+                        <input class="checkbox_fila " type="checkbox">
+                        <p class="checkbox_text_fila">Crear Empresas.</p>
+                    </label>
+                    <label class="input_label">
+                        <input class="checkbox_fila " type="checkbox">
+                        <p class="checkbox_text_fila">Gestionar Pagos.</p>
+                    </label>
+                    <br>
+                    <label class="input_label">
+                        <input class="checkbox_fila " type="checkbox">
+                        <p class="checkbox_text_fila">Ver Reportes Financieros.</p>
+                    </label>
+                    <label class="input_label">
+                        <input class="checkbox_fila " type="checkbox">
+                        <p class="checkbox_text_fila">Exportar Archivos.</p>
+                    </label>
+                </div>
                 <div class="password">
-                    <input class="normal_input"  type="password" placeholder="Contraseña" name="password"
-                        id="password">
+                    <input class="normal_input" type="password" placeholder="Contraseña" name="password" id="password">
                     <svg class="content_password" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="eye"
                         role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
                         class="svg-inline--fa fa-eye fa-w-18 fa-9x" with="25px" height="25px">
@@ -57,22 +80,21 @@
                     </svg>
                 </div>
                 <div class="password">
-                    <input class="normal_input"  type="password" placeholder="Repetir Contraseña"
-                        name="password-repeat" id="password-repeat">
-                    <svg class="content_password" aria-hidden="true" focusable="false" data-prefix="fas"
-                        data-icon="eye" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                    <input class="normal_input" type="password" placeholder="Repetir Contraseña" name="password-repeat"
+                        id="password-repeat">
+                    <svg class="content_password" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="eye"
+                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
                         class="svg-inline--fa fa-eye fa-w-18 fa-9x" with="25px" height="25px">
                         <path fill="currentColor"
                             d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
                             class=""></path>
                     </svg>
                 </div>
-                <input class="normal_input" type="text" placeholder="Generar API KEY" name="companyName" id="companyName">
-                <label class="input_label">
+                <label class="input_label_solitario">
                     <input class="checkbox_solitario" type="checkbox">
                     <p class="checkbox_text_solitario">Enviar al correo electrónico asociado.</p>
                 </label>
-                <input class="normal_input" type="submit" value="CREAR USUARIO">
+                <input class="send_input" type="submit" value="CREAR USUARIO">
             </div>
         </main>
     </div>

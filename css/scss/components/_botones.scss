@@ -1,16 +1,23 @@
-.boton_crear{
+.boton_crear {
     height: 20px;
 }
-.checkbox_fila{
-    min-width: 20px;
-    height: 1.08rem;
-    margin-right: 10px;
+.checkbox_fila {
+    height: 0.65rem;
+    margin-right: 3px;
+    font-size: 0.45rem;
+    width: min-content;
 }
-.checkbox_solitario{
-    display:block;
-    min-width: 20px;
-    height: 1.08rem;
-    margin-right: 10px;
+.checkbox_solitario {
+    display: block;
+    height: 0.65rem;
+    margin-right: 5px;
+}
+.checkbox_permisos {
+    width: 330px;
+    margin-left: 10px;
+    flex-direction: row;
+    margin-top: -5px;
+    margin-bottom: 10px;
 }
 .btn_crear {
     font-weight: 800;
@@ -26,20 +33,21 @@
     font-size: 1rem;
     border-style: none;
     color: white;
+    font-weight: bold;
     padding: 1rem;
     min-width: 212.5px;
-    max-height: 3rem; 
+    max-height: 3rem;
     border-radius: 6.5px;
     background-color: #2f1071;
 }
-.btn_crear_pago{
+.btn_crear_pago {
     display: inline;
     font-size: 1rem;
     border-style: none;
     color: white;
-    padding: .5rem;
+    padding: 0.5rem;
     min-width: 112.5px;
-    max-height: 2rem; 
+    max-height: 2rem;
     border-radius: 6.5px;
     background-color: #2f1071;
 }

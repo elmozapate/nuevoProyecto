@@ -2,11 +2,22 @@
     min-width: 330px;
     height: 2.1rem;
     padding: 13.8px 17.3px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     letter-spacing: 0.56px;
     background-color: $grey_light_input;
-    border-radius: 14px;
+    border-radius: 10px;
     border: none;
+}
+.send_input{
+    min-width: 330px;
+    height: 2.1rem;
+    margin-bottom: 15px;
+    letter-spacing: 0.56px;
+    border-radius: 10px;
+    border: none;
+    background-color:$grey_light_btn;
+    color:$grey_light_text ;
+
 }
 
 .send_email {
@@ -30,13 +41,13 @@
     font-family: $font-principal;
     padding: 0.2rem 1rem 0 1rem;
 }
-
-
 .content_password {
     position: absolute;
     color: $grey_dark_input;
     margin-left: -35px;
     margin-top: 5px;
+    height: 1.3rem;
+
 }
 .password{
     position: relative;
@@ -44,3 +55,16 @@
     height: 2.1rem;
     margin-bottom: 20px;
 }
+.input_label {
+    margin-right: 10px;
+    height: min-content;
+    width: fit-content;
+}
+.input_label_solitario {
+        margin-left: 15px;
+        display: flex;
+        height: min-content;
+        width: fit-content;
+        margin: -0 10px;
+    }
+    

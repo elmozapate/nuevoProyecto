@@ -1,9 +1,10 @@
 .table-container{
     display: block;
     border: 1px solid gray;
-    max-width: 80%;
+    width: 100%;
 } 
 .table_container_pagos {
+    width: 100%;
     border: 1px solid gray;
     grid-row: 4/5;
     grid-column: 1/2;
