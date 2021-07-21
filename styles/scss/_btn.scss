@@ -163,3 +163,21 @@ button{
 .svg_select{
     width: getRemSize( 6px);
 }
+.cuadrado{
+    width: getRemSize( 168.9px);
+    height: getRemSize( 125px);
+    border-radius: 6.5px;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #a4a4a4;
+        background-color: #ffffff;
+    margin-right: getRemSize(12.3px) ;
+    margin-bottom:  getRemSize(12.3px) ;
+}
+.rectangulo{
+    width: getRemSize( 350px);
+    height: getRemSize( 125px);
+    border-radius: 6.5px;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #a4a4a4;
+    background-color: #ffffff;
+}

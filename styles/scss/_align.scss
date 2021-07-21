@@ -114,6 +114,9 @@
     display: flex;
     justify-content: center;
 }
+.align-flex {
+    display: flex;
+}
 
 .m-b-5_9{
     margin-top: 0;
@@ -134,4 +137,21 @@
 .p-b-content{
     padding-bottom:getRemSize(20.5px) ;
 
+}
+.m-b-repT{
+margin-bottom:getRemSize(46.5px) ;
+margin-left:getRemSize(15.5px) ;
+}
+.fix-7{
+    padding-top: getRemSize(15px);
+    @media (min-width: 950px) {
+        padding-left: getRemSize(25.6px);
+    }
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.spn_pagos{
+flex-direction: row;
 }
