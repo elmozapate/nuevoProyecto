@@ -1,0 +1,51 @@
+.inputText{
+    width: getRemSize(270px);
+    max-width: 100%;
+    height: getRemSize(34px);
+    padding: 10px 14px;
+    border-radius: 10.5px;
+    background-color: $grey_light_input;
+    font-size: getRemSize(11px);
+    letter-spacing: 1;
+    color: $grey_dark_input;
+    border: 0;
+    outline: none;
+    margin-bottom: 9px; 
+    display: block;
+}
+.inputSearch{
+    width: getRemSize(267px);
+    height: getRemSize(27.5px);
+    margin: 11px 87.4px 9.5px 0;
+    padding: 8px 185px 7.5px 11px;
+    border-radius: 6.5px;
+    border: none;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    font-size: getRemSize(9px);
+    font-weight: 300;
+    color: #707070;
+
+}
+.inputIcon{
+    position: relative;
+    width: getRemSize(270px);
+    max-width: 100%;
+
+    input{
+        padding-right: 50px;
+    }
+    svg{
+        height: getRemSize(10.4px);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 13px;
+        margin:auto;
+        color: $icon-gray;
+        cursor: pointer;
+    }
+}
+.input_label {
+    width: 100%;
+}

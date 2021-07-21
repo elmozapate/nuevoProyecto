@@ -1,0 +1,55 @@
+.tag{
+    font-size: getRemSize(6.5px);
+    height: getRemSize(13px);
+    color: $black; 
+    padding: 4px 6px;
+    border-radius: 12px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    &::before{
+        content: "";
+        display: block;
+        width: getRemSize(5px);
+        height: getRemSize(5px);
+        border: solid 1px black;
+        opacity: .75;
+        border-radius: 100%;
+        margin-right: 5px;
+    }
+    &.Entrante{
+        background-color: rgba(47, 16, 113, 0.32);
+    }
+    &.Procesando{
+        background-color: rgba(120, 144, 252, 0.6);
+    }
+    &.Pendiente{  
+        background-color: rgba(252, 248, 120, 0.6);
+    }
+    &.Cancelado{    
+        background-color: rgba(252, 120, 120, 0.6);
+    }
+    &.Exitoso{
+        background-color: rgba(34, 204, 140, 0.48);
+    }
+}
+.estado{
+    display: flex;
+    align-items: center;
+}
+.numberCircle{
+    display: inline-block;
+    width: getRemSize(15px);
+    height: getRemSize(15px);
+    margin-left:3px;
+    background-color: #a9a9a9;
+    font-size: getRemSize(7px);
+    line-height: 1;
+    color: #2f1071;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

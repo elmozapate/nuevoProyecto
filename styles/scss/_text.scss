@@ -1,0 +1,79 @@
+.p-text {
+    font-size: getRemSize(13px);
+    line-height: 1.54;
+    color: $text-gray;
+}
+.h3_text {
+    letter-spacing: 0.44px;
+    text-align: left;
+    color: $grey_dark_input;
+    font-size: getRemSize(11px);
+}
+.exportar {
+    text-decoration: none;
+    font-size: getRemSize(11.5px);
+    font-weight: bold;
+    text-align: left;
+    color: $grey_dark_link;
+}
+ul {
+    justify-content: left;
+}
+.br-p-2 {
+    display: none;
+    @media (min-width: 936px) {
+        display: flex;
+    }
+}
+.br-p-1 {
+    display: none;
+    @media (min-width: 856px) {
+        display: flex;
+    }
+}
+.br-p-3 {
+    display: none;
+    @media (min-width: 954px) {
+        display: flex;
+    }
+}
+.br-p-4 {
+    display: none;
+    @media (min-width: 868px) {
+        display: flex;
+    }
+}
+.br-p-5 {
+    display: none;
+    @media (min-width: 770px) {
+        display: flex;
+    }
+}
+.br-p-6 {
+    display: none;
+    @media (min-width: 802px) {
+        display: flex;
+    }
+}
+.br-p-7 {
+    display: none;
+    @media (min-width: 897px) {
+        display: flex;
+    }
+}
+.f-z-t-b {
+    font-size: getRemSize(12px);
+}
+.f-z-t-t {
+    font-size: getRemSize(14.5px);
+    font-weight: 800;
+    color: #3d3d3d;
+}
+.select-title{
+    margin: 0 2px 0 0;
+    font-family: Nunito;
+    font-size: getRemSize(10.5px);
+    font-weight: bold;
+    text-align: left;
+    color: #383737;
+  }

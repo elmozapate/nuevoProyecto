@@ -1,0 +1,66 @@
+.checkbox{
+    padding-top:getRemSize(8.9px) ;
+    display: inline-flex;
+    font-size: getRemSize(9px);
+    font-weight: bold;
+    color: $grey_dark_input;
+    align-items: center;
+    margin-bottom: 16px;
+    cursor: pointer;
+    padding-left:getRemSize(6px) ;
+    
+    input{
+        display: none;
+        margin-right: 8px;
+    }
+}
+.checkbox-2{
+    display: inline-flex;
+    font-weight: bold;
+    color: $grey_dark_input;
+    cursor: pointer;
+        input{
+        display: none;
+    }
+}
+.p-t-ck{
+    margin-bottom: 0px;
+}
+
+.checkbox input:checked + .icon{
+    border: solid 1.5px #22cc8c;
+    background-color: #22cc8c;
+}
+.checkbox-2 input:checked + .icon{
+    border: solid 1.5px #22cc8c;
+    background-color: #22cc8c;
+}
+.checkbox .icon{
+    display: inline-block;
+    width: getRemSize(11.5px);
+    height: getRemSize(11.5px);
+    border-radius: 2px;
+    border: solid 1.5px gray;
+    background-color: white;
+    margin-right: getRemSize(5px);
+}
+.checkbox-2 .icon{
+    display: inline-block;
+    width: getRemSize(8px);
+    height: getRemSize(8px);
+    border-radius: 2px;
+    border: solid 1.5px gray;
+    background-color: white;
+}
+.checkbox_permisos{
+    margin-top: 0;
+}
+.h-min{
+padding-top: 0;   
+margin-bottom: 0;
+ font-size:getRemSize(7.5px)  ;
+}
+
+.hide{
+    display: none;
+}
