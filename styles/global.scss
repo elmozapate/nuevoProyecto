@@ -1,0 +1,61 @@
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #949494;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #878787;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #808080;
+  }
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+    border: 0px none #ffffff;
+    border-radius: 47px;
+  }
+  ::-webkit-scrollbar-track:hover {
+    background: #ffffff;
+  }
+  ::-webkit-scrollbar-track:active {
+    background: #333333;
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+  @media(max-width:767px){
+    ::-webkit-scrollbar {
+        width: 3px;
+        height: 3px;
+    }
+}
+@import "./scss/normalize";
+@import "./scss/config";
+
+@function getRemSize($sizePx) {
+    @return ($sizePx / 16px) * 1rem;
+}
+@import "./scss/align";
+@import "./scss/shadows";
+@import "./scss/CRC";
+@import "./scss/header";
+@import "./scss/linkBefore";
+@import "./scss/titles";
+@import "./scss/text";
+@import "./scss/img";
+@import "./scss/input";
+@import "./scss/checkbox";
+@import "./scss/btn";
+@import "./scss/table";
+@import "./scss/tag";
+@import "./scss/height";
+@import "./scss/pagos";
+@import "./scss/select";

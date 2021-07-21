@@ -1,0 +1,137 @@
+.align-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.m-b-1 {
+    margin-bottom: .8rem;
+}
+.m-b-3{
+    padding-bottom: 9px;
+
+}
+.p-t-11 {
+    padding-top: getRemSize(11px);
+}
+
+.m-r-55 {
+    @media (min-width: 576px) {
+        padding-right: 15px;
+    }
+    @media (min-width: 776px) {
+        padding-right: 25px;
+    }
+    @media (min-width: 950px) {
+        padding-right: 55px;
+    }
+}
+.m-r-18 {
+    margin-right: getRemSize(18.5px);
+}
+.fill {
+    height: 100%;
+}
+.all {
+    height: auto;
+    @media (min-width: 576px) {
+        min-height: 100vh;
+    }
+}
+.f-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.checkbox_permisos {
+    max-width: 330px;
+    margin-left: 10px;
+    flex-direction: row;
+    margin-bottom: 10px;
+    flex-wrap: nowrap;
+}
+.m-w-t {
+    width: 575.5px;
+}
+.hide {
+    display: none;
+}
+.fix {
+    padding-top: getRemSize(15px);
+    @media (min-width: 950px) {
+        padding-top: getRemSize(26.3px);
+        padding-left: 15px;
+    }
+}
+.fix-2{
+    @media (min-width: 950px) {
+    margin-top: getRemSize(69.3px);
+}
+}
+.fix-3{
+    @media (min-width: 950px) {
+    margin-top: getRemSize(43.3px);
+}
+}
+.fix-4{
+    
+    @media (min-width: 950px) {
+        padding-left: 15px;
+
+    margin-top: getRemSize(21.25px);
+}
+}
+.fix-5{
+    margin-top: getRemSize(21.25px);
+
+    @media (min-width: 950px) {
+        padding-left: 12.9px;
+}
+}
+.fix-6{
+    
+    @media (min-width: 950px) {
+        padding-left: 14px;
+        margin-bottom: 7px;
+}
+}
+.fix-7{
+    
+    @media (min-width: 560px) {
+        padding-left: 12.9px;
+    margin-top: getRemSize(21.25px);
+}
+}
+.m-b-end-p {
+    margin-bottom: getRemSize(36.9px);
+}
+.m-b-med-p {
+    margin-bottom: getRemSize(23px);
+}
+.align-flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.m-b-5_9{
+    margin-top: 0;
+    margin-bottom: getRemSize(5.9px);
+    padding: 0;
+    padding-right:getRemSize(5px) ;
+}
+.m-l-t-pagos{
+    margin-left: 22px;
+    }
+.underlined{
+    border-bottom: 1px solid #bdbdbd;
+
+}
+.dis-b{
+    display: block;
+}
+.p-b-content{
+    padding-bottom:getRemSize(20.5px) ;
+
+}
