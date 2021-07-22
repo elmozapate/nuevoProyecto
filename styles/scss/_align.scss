@@ -6,11 +6,10 @@
 }
 
 .m-b-1 {
-    margin-bottom: .8rem;
+    margin-bottom: 0.8rem;
 }
-.m-b-3{
+.m-b-3 {
     padding-bottom: 9px;
-
 }
 .p-t-11 {
     padding-top: getRemSize(11px);
@@ -32,6 +31,11 @@
 }
 .fill {
     height: 100%;
+}
+.h_auto {
+    @media (min-width: 576px) {
+        min-height: 87.5vh;
+    }
 }
 .all {
     height: auto;
@@ -65,44 +69,41 @@
         padding-left: 15px;
     }
 }
-.fix-2{
+.fix-2 {
     @media (min-width: 950px) {
-    margin-top: getRemSize(69.3px);
+        margin-top: getRemSize(69.3px);
+    }
 }
-}
-.fix-3{
+.fix-3 {
     @media (min-width: 950px) {
-    margin-top: getRemSize(43.3px);
+        margin-top: getRemSize(43.3px);
+    }
 }
-}
-.fix-4{
-    
+.fix-4 {
     @media (min-width: 950px) {
         padding-left: 15px;
 
-    margin-top: getRemSize(21.25px);
+        margin-top: getRemSize(21.25px);
+    }
 }
-}
-.fix-5{
+.fix-5 {
     margin-top: getRemSize(21.25px);
 
     @media (min-width: 950px) {
         padding-left: 12.9px;
+    }
 }
-}
-.fix-6{
-    
+.fix-6 {
     @media (min-width: 950px) {
         padding-left: 14px;
         margin-bottom: 7px;
+    }
 }
-}
-.fix-7{
-    
+.fix-7 {
     @media (min-width: 560px) {
         padding-left: 12.9px;
-    margin-top: getRemSize(21.25px);
-}
+        margin-top: getRemSize(21.25px);
+    }
 }
 .m-b-end-p {
     margin-bottom: getRemSize(36.9px);
@@ -114,24 +115,46 @@
     display: flex;
     justify-content: center;
 }
+.align-flex {
+    display: flex;
+}
 
-.m-b-5_9{
+.m-b-5_9 {
     margin-top: 0;
     margin-bottom: getRemSize(5.9px);
     padding: 0;
-    padding-right:getRemSize(5px) ;
+    padding-right: getRemSize(5px);
 }
-.m-l-t-pagos{
+.m-l-t-pagos {
     margin-left: 22px;
-    }
-.underlined{
-    border-bottom: 1px solid #bdbdbd;
-
 }
-.dis-b{
+.m-l-11 {
+    margin-left: 11px;
+}
+
+.underlined {
+    border-bottom: 1px solid #bdbdbd;
+}
+.dis-b {
     display: block;
 }
-.p-b-content{
-    padding-bottom:getRemSize(20.5px) ;
-
+.p-b-content {
+    padding-bottom: getRemSize(20.5px);
+}
+.m-b-repT {
+    margin-bottom: getRemSize(46.5px);
+    margin-left: getRemSize(15.5px);
+}
+.fix-7 {
+    padding-top: getRemSize(15px);
+    @media (min-width: 950px) {
+        padding-left: getRemSize(25.6px);
+    }
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.spn_pagos {
+    flex-direction: row;
 }
