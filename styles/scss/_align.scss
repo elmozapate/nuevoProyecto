@@ -14,7 +14,9 @@
 .p-t-11 {
     padding-top: getRemSize(11px);
 }
-
+.m-r-1{
+    margin-left:getRemSize(11px) ;
+}
 .m-r-55 {
     @media (min-width: 576px) {
         padding-right: 15px;
@@ -157,4 +159,20 @@
 }
 .spn_pagos {
     flex-direction: row;
+}
+.m-b-selected{
+    margin-bottom: getRemSize(17.7px);
+
+}
+.en_edicion{
+    font-size: getRemSize(11px);
+    padding: 0 23px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding-top: 26.4px;
+
+}
+.m-l-min{
+    margin-left: getRemSize(2.1px);
 }

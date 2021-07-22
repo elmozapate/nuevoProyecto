@@ -154,11 +154,18 @@ button {
     height: getRemSize(11.4px);
     cursor: pointer;
 }
+.btn-icono-editar {
+    height: getRemSize(10.2px);
+    cursor: pointer;
+}
 .btn-icono-2 {
     height: getRemSize(11.3px);
     cursor: pointer;
 }
-
+.btn-icono-aceptar{
+    height: getRemSize(7.4px);
+    cursor: pointer;
+}
 .svg_select {
     width: getRemSize(6px);
     cursor: pointer;
@@ -187,13 +194,10 @@ button {
     display: flex;
     flex-direction: row;
     margin-left: 24px;
+    align-content: center;
+
     span {
-        font-size: getRemSize(12px);
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.33;
-        letter-spacing: normal;
-        text-align: left;
+        font-size: getRemSize(11px);
     }
 }
 .color_editar {
@@ -208,6 +212,15 @@ button {
 .color_editar_complete {
     font-weight: 800;
     color: #7890fc;
+    
+}
+.color_guardar{
+    font-weight: 900;
+    color: #22cc8c;
+}
+.color_cancelar{
+  font-weight: 900;
+  color: #fe8989;
 }
 .search-icon{
     height: getRemSize(11px);

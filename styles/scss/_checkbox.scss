@@ -22,6 +22,8 @@
 .checkbox input:checked + .icon{
     border: solid 1.5px #22cc8c;
     background-color: #22cc8c;
+    background-image: url('../assets/img/ok-arrow.png') ;
+    background-size: getRemSize(11.5px) getRemSize(11.5px);
 }
 
 .checkbox .icon{
@@ -45,6 +47,8 @@
 .checkbox-2 input:checked + .icon{
     border: solid 1.5px #22cc8c;
     background-color: #22cc8c;
+    background-image: url('../assets/img/ok-arrow.png') ;
+    background-size: getRemSize(11.5px) getRemSize(8px);
 }
 .checkbox-2 .icon{
     display: inline-block;
@@ -66,6 +70,9 @@
 .checkbox-3 input:checked + .icon{
     border: solid 1.5px #22cc8c;
     background-color: #22cc8c;
+    background-image: url('../assets/img/ok-arrow.png') ;
+    background-size: getRemSize(11.5px) getRemSize(11.5px);
+    
 }
 .checkbox-3 .icon{
     display: inline-block;
