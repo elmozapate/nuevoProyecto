@@ -1,3 +1,22 @@
-.shadow_aside{
-    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.5);
+.shadow_aside {
+  box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.5);
+}
+.row_selected {
+ 
+  span {
+    padding-left: getRemSize(11px);
+    padding-right: getRemSize(11px);
+    background-color: #dadada;
+    border-radius: 6px;
+    text-align: center;
+    font-size: getRemSize(9px);
+    padding-bottom: getRemSize(1.8px);
+  padding-top: getRemSize(1.5px);
+  margin-bottom: 222px;
   }
+}
+.row_not_selected {
+  font-size: getRemSize(10.5px);
+
+ 
+}
