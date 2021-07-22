@@ -4,7 +4,6 @@
     box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
     border: solid 0.5px #dcdcdc;
     border-radius: 6px;
-
 }
 .contentTable-2 {
     max-width: 100%;
@@ -12,15 +11,14 @@
     box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
     border: solid 0.5px #dcdcdc;
     border-radius: 6px;
-
 }
 .table {
     font-size: getRemSize(9px);
     text-align: left;
     color: #707070;
     padding-top: 15.5px;
-    
-       // border-collapse: collapse;
+
+    // border-collapse: collapse;
     thead {
         tr {
             th {
@@ -30,7 +28,7 @@
                 text-align: left;
                 color: #3d3d3d;
                 white-space: nowrap;
-                padding-right:  8px ;
+                padding-right: 8px;
                 &:first-child {
                     padding-left: 22px;
                 }
@@ -61,24 +59,25 @@
     }
 }
 .table-2 {
+    font-size: getRemSize(12px);
     text-align: left;
     color: #707070;
+    text-align: left;
     border-radius: 6.5px;
-   width: 100%;
-    padding: 19px 0;
+    width: 100%;
+    padding: 30px 0;
     // border-collapse: collapse;
     thead {
         tr {
             th {
-                margin: 0.5px 57px 16.5px 10.5px;
                 text-align: left;
                 white-space: nowrap;
-                padding: 3px 6px;
+                padding: 0 16.5px 21px 0;
                 &:first-child {
-                    padding-left: 29.5px;
+                    padding-left: 22px;
                 }
                 &:last-child {
-                    padding-right: 29.5px;
+                    padding-right: 22px;
                 }
             }
         }
@@ -86,19 +85,14 @@
     tbody {
         tr {
             td {
-                padding: 10px 7px;
+                padding: 6px 6px 6.1px 0;
                 white-space: nowrap;
                 border-bottom: 1px solid #bdbdbd;
                 &:first-child {
-                    padding-left: 29.5px;
+                    padding-left: 22px;
                 }
                 &:last-child {
-                    padding-right: 29.5px;
-                }
-            }
-            &:last-child {
-                td {
-                    border-bottom: 0;
+                    padding-right: 22px;
                 }
             }
         }
@@ -113,7 +107,6 @@
     ul {
         display: flex;
         flex-wrap: wrap;
-        
     }
 }
 .estado {
@@ -125,27 +118,25 @@
     font-weight: 800;
     text-align: left;
     color: #707070;
-    margin-right: getRemSize(26.5px) ;
-    padding-bottom:getRemSize(6px) ;
-    margin-bottom:getRemSize(14px) ;
+    margin-right: getRemSize(26.5px);
+    padding-bottom: getRemSize(6px);
+    margin-bottom: getRemSize(14px);
     cursor: pointer;
 
-    span{
-          font-size: getRemSize(7px);
- 
-  color: #2f1071;
+    span {
+        font-size: getRemSize(7px);
+
+        color: #2f1071;
         display: inline-flex;
     }
-    
-    
 }
-.line_active::before{
+.line_active::before {
     content: "";
     width: 100%;
     height: getRemSize(3px);
-    background:$ln_estado_active ;
+    background: $ln_estado_active;
     border-radius: 10px;
-    position:absolute;
+    position: absolute;
     display: block;
     transform: scaleX(1.1);
     top: 100%;

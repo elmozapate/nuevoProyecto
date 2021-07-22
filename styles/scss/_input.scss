@@ -28,6 +28,28 @@
     outline: none;
 
 }
+.SearchIcon{
+    position: relative;
+    width: getRemSize(267px);
+    max-width: 100%;
+    font-size: getRemSize(9px);
+    font-weight: 300;
+    text-align: left;
+    color: $grey_light_text;
+    input{
+        padding-right: 50px;
+    }
+    img{
+        height: getRemSize(10.4px);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 243px;
+        margin:auto;
+        color: $icon-gray;
+        cursor: pointer;
+    }
+}
 .inputIcon{
     position: relative;
     width: getRemSize(270px);
